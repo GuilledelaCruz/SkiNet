@@ -4,6 +4,6 @@ export interface IProduct {
     description: string;
     price: number;
     pictureUrl: string;
-    productTupe: string;
+    productType: string;
     productBrand: string;
 }
