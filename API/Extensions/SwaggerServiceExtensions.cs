@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace API.Exceptions
+namespace API.Extensions
 {
     public static class SwaggerServiceExtensions
     {
