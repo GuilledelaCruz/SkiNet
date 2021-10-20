@@ -48,7 +48,6 @@ namespace API.Controllers
             return Ok(new Pagination<ProductToReturnDTO>(productParams.PageIndex, productParams.PageSize, number, map));
         }
 
-        [Cached(600)]
         [HttpGet("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
